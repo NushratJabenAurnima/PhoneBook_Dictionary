@@ -1,3 +1,9 @@
+
+
+
+
+
+
 # The project allows users to use the following features:
 
 **•	User Input**
@@ -14,22 +20,22 @@
 
 # Methods used in the project:
 
-**•	Binary Search Tree**
+**•	Binary Search Tree:**
 
-  **• Insertion**
+  **1. Insertion**
     
-  **•	Deletion**
+  **2. Deletion**
 
 **•	File Handeling:**
 
-  **• Opening File**
+  **1. Opening File**
     
-  **•	Reading File**
+  **2. Reading File**
 
-   **•	Writing File**
+   **3.	Writing File**
     
-   **•	Coping File**
+   **4.	Coping File**
     
-  **•	Deleting a single line from File**
+  **5.	Deleting a single line from File**
     
-   **•	Closing File**
+   **6. Closing File**
