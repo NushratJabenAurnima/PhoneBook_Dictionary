@@ -1,5 +1,5 @@
 # Problem Statement
-**This project is a program which is created using c++ for phonebook dictionary. All the aspects of a dictionary such as add, remove, search, display can be found here. It can store unique contact however having the same name and display them. It can read a existing file which taking new inputs during execution and can do all the operations for the existing file as well as new information.**
+**This project is a program which is created using c++ for phonebook dictionary. All the aspects of a dictionary such as add, remove, search, display can be found here. It can store unique contact however, having the same name and display them. It can read a existing file while taking new inputs during execution and can do all the operations for the existing file as well as new information.**
 
 # The project allows users to use the following features:
 
