@@ -1,38 +1,61 @@
-# Problem Statement
-**This project is a program which is created using c++ for phonebook dictionary. All the aspects of a dictionary such as add, remove, search, display can be found here. It can store unique contact however, having the same name and display them. It can read a existing file while taking new inputs during execution and can do all the operations for the existing file as well as new information.**
+# Phonebook Dictionary
 
-# The project allows users to use the following features:
+Phonebook Dictionary is a C++ project that manages contacts using a Binary Search Tree (BST) and file handling techniques. This application allows users to store, search, and manage contacts efficiently. It integrates BST operations for dynamic contact management and provides persistent storage through file handling.
 
-**•	User Input**
+## Project Overview
 
-**•	Add Contact**
+The Phonebook Dictionary application provides users with features such as adding, deleting, and searching contacts by name or phone number. All contacts are stored in a file, allowing the application to persist data between sessions. The implementation uses a Binary Search Tree for efficient data management and supports unique contacts for each phone number while handling duplicate names.
 
-**•	Remove Contact**
+## Features
 
-**•	Search(By Name, By Contact)**
+- **Add Contact:** Insert a new contact into both the file and the BST.
+- **Remove Contact:** Delete an existing contact from both the file and the BST.
+- **Search by Contact:** Search for a contact by phone number.
+- **Search by Name:** Search for a contact by name.
+- **Display Contacts:** List all contacts from the file.
+- **File Persistence:** Contact data is saved in a file and retrieved during program execution.
 
-**•	Display All**
+## Functionality
 
-**•	Terminating process**
+1. **User Input:** The program accepts user input for managing contacts.
+2. **Binary Search Tree (BST):**
+   - **Insertion:** Insert a contact by name and phone number.
+   - **Deletion:** Delete a contact by phone number, removing it from both the BST and the file.
+3. **File Handling:**
+   - Open, read, write, and close the phonebook file (`phonebook.txt`).
+   - Copy file content to a temporary file during the delete operation.
+   - Delete specific contact data from the file.
 
-# Methods used in the project:
+## Usage
 
-**•	Binary Search Tree:**
+### Adding a Contact
+- When adding a contact, the program checks the file to ensure the phone number is unique. If the contact is new, it gets inserted into both the BST and the file.
 
-  **1. Insertion**
-    
-  **2. Deletion**
+### Removing a Contact
+- Contacts can be deleted by entering the phone number. The deletion is performed in both the BST and the file. If the contact exists, it will be removed from both storage systems.
 
-**•	File Handeling:**
+### Searching for a Contact
+- Search by either phone number or name. The program reads the contact information from the file and displays the result.
 
-  **1. Opening File**
-    
-  **2. Reading File**
+### Displaying All Contacts
+- The program can display all contacts stored in the phonebook file.
 
-   **3.	Writing File**
-    
-   **4.	Coping File**
-    
-  **5.	Deleting a single line from File**
-    
-   **6. Closing File**
+## Code Structure
+
+- **Binary Search Tree (BST):**
+  - Efficiently manages dynamic contact data.
+  - Ensures fast search and delete operations for the contact directory.
+  
+- **File Handling:**
+  - Supports persistent data storage across sessions.
+  - The file stores contact information in a structured format, allowing data retrieval and updates.
+
+## File Handling
+
+The program uses a file called `phonebook.txt` to store contact information.
+
+## Technologies Used
+
+- **Programming Language:** C++
+- **Data Structure:** Binary Search Tree (BST)
+- **File Handling:** C++ file I/O for persistent data storage.
